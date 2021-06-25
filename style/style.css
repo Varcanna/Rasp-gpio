@@ -1,0 +1,94 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	background-image: url(../images/dark-wood.jpg);
+	background-position: center top;
+	/*background-repeat:no-repeat;*/
+}
+
+h1 {
+	font-size: 200%;
+	color: grey;
+	text-align: center;
+	border-width: 3px;
+	border-style: solid;
+	border-color: grey;
+}
+
+h2 {
+	font-size: 150%;
+	text-align: center;
+	color: white;
+	padding-left: 15px;
+}
+
+p, ul, li, td {
+	color: white;
+	text-align: center;
+}
+
+#conteneurBouton {
+	display: flex;
+	flex-direction: line-reverse;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	text-align: center;
+}
+
+#menu {
+	border-style: solid;
+	border-color: grey;
+	display: flex;
+	flex-direction: line-reverse;
+	justify-content: center;
+}
+
+.boutonMenu a { 
+	background: #3f3f3f;
+	border-radius: 11px;
+	padding: 20px 40px;
+	color: #ffffff;
+	display: inline-block;
+	font: normal bold 26px/1 "Open Sans", sans-serif;
+	text-align: center;
+}
+
+.boutonMenu a:hover { 
+	color: #000000;
+}
+
+.boutonGpioOn button {
+	background: #38761d;
+	border-radius: 11px;
+	padding: 20px 40px;
+	color: #ffffff;
+	display: inline-block;
+	font: normal bold 26px/1 "Open Sans", sans-serif;
+	text-align: center;
+}
+
+.boutonGpioOn button:hover {
+	color: #000000;
+}
+
+.boutonGpioOff button {
+	background: #ff0000;
+	border-radius: 11px;
+	padding: 20px 40px;
+	color: #ffffff;
+	display: inline-block;
+	font: normal bold 26px/1 "Open Sans", sans-serif;
+	text-align: center;
+}
+
+.boutonGpioOff button:hover {
+	color: #000000
+}

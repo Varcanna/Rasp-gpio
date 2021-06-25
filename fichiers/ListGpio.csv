@@ -1,0 +1,4 @@
+Id,Nom,Description,Pin,I/O,Etat,Auto Mode
+0,Test,Test du Parser PHP,13,0,0,0
+1,Volet 1,,12,0,0,0
+2,Volet 2,,11,0,0,0
